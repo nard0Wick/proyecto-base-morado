@@ -23,10 +23,12 @@ class Operaciones:
                 continue    
     
     def potencia(self):
-        self.resultado = "La potencia es " + str(self.num1) + " + " + str(self.num2) + " es igula a " + str(self.num1 ** self.num2)
+        self.resultado = "La potencia es " + str(self.num1) + " ** " + str(self.num2) + " es igula a " + str(self.num1 ** self.num2)
 
     #operación de raiz
-    
+    def raiz(self):
+        self.resultado = "La Raíz de " + str(self.num1) + " √ " + str(self.num2) + " es igula a " + str(self.num2 ** (1/self.num1))
+
     def mostrarResultado(self):
         print(self.resultado)
         
